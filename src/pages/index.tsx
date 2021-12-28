@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+// import { Button } from "@/components/layouts/Header;
+
 
 
 //review
@@ -12,7 +14,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-red-700 text-white inline-block p-10 rounded-lg font-bold'>学習管理アプリ</main>
+      <main>
+      トップページ
+      </main>
     </div>
   )
 }
